@@ -1,0 +1,281 @@
+- 👋 Hi, I’m @Whiteboymusic
+- 👀 I’m interested in ...
+- 🌱 I’m currently learning ...
+- 💞️ I’m looking to collaborate on ...
+- 📫 How to reach me ...
+- 😄 Pronouns: ...
+- ⚡ Fun fact: ...
+
+<!---
+Whiteboymusic/Whiteboymusic is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+You can click the Preview link to take a look at your changes.
+--->
+2024-09-16T06:41:44.6802338Z ##[debug]Starting: build
+2024-09-16T06:41:44.6835792Z ##[debug]Cleaning runner temp folder: /home/runner/work/_temp
+2024-09-16T06:41:44.7193317Z ##[debug]Starting: Set up job
+2024-09-16T06:41:44.7194134Z Current runner version: '2.319.1'
+2024-09-16T06:41:44.7223592Z ##[group]Operating System
+2024-09-16T06:41:44.7224333Z Ubuntu
+2024-09-16T06:41:44.7224983Z 22.04.4
+2024-09-16T06:41:44.7225458Z LTS
+2024-09-16T06:41:44.7225943Z ##[endgroup]
+2024-09-16T06:41:44.7226687Z ##[group]Runner Image
+2024-09-16T06:41:44.7227342Z Image: ubuntu-22.04
+2024-09-16T06:41:44.7227945Z Version: 20240908.1.0
+2024-09-16T06:41:44.7229428Z Included Software: https://github.com/actions/runner-images/blob/ubuntu22/20240908.1/images/ubuntu/Ubuntu2204-Readme.md
+2024-09-16T06:41:44.7231742Z Image Release: https://github.com/actions/runner-images/releases/tag/ubuntu22%2F20240908.1
+2024-09-16T06:41:44.7233069Z ##[endgroup]
+2024-09-16T06:41:44.7233810Z ##[group]Runner Image Provisioner
+2024-09-16T06:41:44.7234640Z 2.0.384.1
+2024-09-16T06:41:44.7235333Z ##[endgroup]
+2024-09-16T06:41:44.7255967Z ##[group]GITHUB_TOKEN Permissions
+2024-09-16T06:41:44.7258243Z Contents: read
+2024-09-16T06:41:44.7258983Z Metadata: read
+2024-09-16T06:41:44.7259591Z Pages: write
+2024-09-16T06:41:44.7260147Z ##[endgroup]
+2024-09-16T06:41:44.7264296Z Secret source: Actions
+2024-09-16T06:41:44.7265278Z ##[debug]Primary repository: Whiteboy-music/demo-repository
+2024-09-16T06:41:44.7266379Z Prepare workflow directory
+2024-09-16T06:41:44.7366053Z ##[debug]Creating pipeline directory: '/home/runner/work/demo-repository'
+2024-09-16T06:41:44.7370967Z ##[debug]Creating workspace directory: '/home/runner/work/demo-repository/demo-repository'
+2024-09-16T06:41:44.7373426Z ##[debug]Update context data
+2024-09-16T06:41:44.7378595Z ##[debug]Evaluating job-level environment variables
+2024-09-16T06:41:44.8098618Z ##[debug]Evaluating job container
+2024-09-16T06:41:44.8103432Z ##[debug]Evaluating job service containers
+2024-09-16T06:41:44.8106876Z ##[debug]Evaluating job defaults
+2024-09-16T06:41:44.8208149Z Prepare all required actions
+2024-09-16T06:41:44.8455665Z Getting action download info
+2024-09-16T06:41:45.0620007Z Download action repository 'actions/checkout@v4' (SHA:692973e3d937129bcbf40652eb9f2f61becf3332)
+2024-09-16T06:41:45.0649185Z ##[debug]Copied action archive '/opt/actionarchivecache/actions_checkout/692973e3d937129bcbf40652eb9f2f61becf3332.tar.gz' to '/home/runner/work/_actions/_temp_0bc68f2a-7fc0-4d42-add7-4e15a3183747/51573ceb-f324-45f1-9c56-9a52686cddf6.tar.gz'
+2024-09-16T06:41:45.1354133Z ##[debug]Unwrap 'actions-checkout-692973e' to '/home/runner/work/_actions/actions/checkout/v4'
+2024-09-16T06:41:45.1530271Z ##[debug]Archive '/home/runner/work/_actions/_temp_0bc68f2a-7fc0-4d42-add7-4e15a3183747/51573ceb-f324-45f1-9c56-9a52686cddf6.tar.gz' has been unzipped into '/home/runner/work/_actions/actions/checkout/v4'.
+2024-09-16T06:41:45.1706281Z Download action repository 'actions/jekyll-build-pages@v1' (SHA:44a6e6beabd48582f863aeeb6cb2151cc1716697)
+2024-09-16T06:41:45.3533028Z ##[debug]Download 'https://api.github.com/repos/actions/jekyll-build-pages/tarball/44a6e6beabd48582f863aeeb6cb2151cc1716697' to '/home/runner/work/_actions/_temp_73c0da16-4199-429d-876f-2bc005b44c02/681d3843-07af-435f-8045-9a94d1db01a4.tar.gz'
+2024-09-16T06:41:45.3817786Z ##[debug]Unwrap 'actions-jekyll-build-pages-44a6e6b' to '/home/runner/work/_actions/actions/jekyll-build-pages/v1'
+2024-09-16T06:41:45.4064532Z ##[debug]Archive '/home/runner/work/_actions/_temp_73c0da16-4199-429d-876f-2bc005b44c02/681d3843-07af-435f-8045-9a94d1db01a4.tar.gz' has been unzipped into '/home/runner/work/_actions/actions/jekyll-build-pages/v1'.
+2024-09-16T06:41:45.4144684Z Download action repository 'actions/upload-pages-artifact@v3' (SHA:56afc609e74202658d3ffba0e8f6dda462b719fa)
+2024-09-16T06:41:45.5262745Z ##[debug]Download 'https://api.github.com/repos/actions/upload-pages-artifact/tarball/56afc609e74202658d3ffba0e8f6dda462b719fa' to '/home/runner/work/_actions/_temp_18de622b-0179-4c41-b697-7e89817a6f82/378e4ef3-a05b-47bd-9310-1181f63f6737.tar.gz'
+2024-09-16T06:41:45.5374760Z ##[debug]Unwrap 'actions-upload-pages-artifact-56afc60' to '/home/runner/work/_actions/actions/upload-pages-artifact/v3'
+2024-09-16T06:41:45.5393112Z ##[debug]Archive '/home/runner/work/_actions/_temp_18de622b-0179-4c41-b697-7e89817a6f82/378e4ef3-a05b-47bd-9310-1181f63f6737.tar.gz' has been unzipped into '/home/runner/work/_actions/actions/upload-pages-artifact/v3'.
+2024-09-16T06:41:45.5441364Z ##[debug]action.yml for action: '/home/runner/work/_actions/actions/checkout/v4/action.yml'.
+2024-09-16T06:41:45.6249016Z ##[debug]action.yml for action: '/home/runner/work/_actions/actions/jekyll-build-pages/v1/action.yml'.
+2024-09-16T06:41:45.6300012Z ##[debug]Container image for action: 'ghcr.io/actions/jekyll-build-pages:v1.0.13'.
+2024-09-16T06:41:45.6328249Z ##[debug]action.yml for action: '/home/runner/work/_actions/actions/upload-pages-artifact/v3/action.yml'.
+2024-09-16T06:41:45.6536590Z Getting action download info
+2024-09-16T06:41:45.7382376Z Download action repository 'actions/upload-artifact@v4' (SHA:50769540e7f4bd5e21e526ee35c689e35e0d6874)
+2024-09-16T06:41:45.8887783Z ##[debug]Download 'https://api.github.com/repos/actions/upload-artifact/tarball/50769540e7f4bd5e21e526ee35c689e35e0d6874' to '/home/runner/work/_actions/_temp_ecfbe231-2a58-48bb-aff6-4aa64278ea9c/c89d472a-2ce1-46f3-a0b5-633a83e01d35.tar.gz'
+2024-09-16T06:41:45.9757915Z ##[debug]Unwrap 'actions-upload-artifact-5076954' to '/home/runner/work/_actions/actions/upload-artifact/v4'
+2024-09-16T06:41:45.9947473Z ##[debug]Archive '/home/runner/work/_actions/_temp_ecfbe231-2a58-48bb-aff6-4aa64278ea9c/c89d472a-2ce1-46f3-a0b5-633a83e01d35.tar.gz' has been unzipped into '/home/runner/work/_actions/actions/upload-artifact/v4'.
+2024-09-16T06:41:45.9997144Z ##[debug]action.yml for action: '/home/runner/work/_actions/actions/upload-artifact/v4/action.yml'.
+2024-09-16T06:41:46.0209771Z ##[debug]Set step '__actions_checkout' display name to: 'Checkout'
+2024-09-16T06:41:46.0212167Z ##[debug]Set step '__actions_jekyll-build-pages' display name to: 'Build with Jekyll'
+2024-09-16T06:41:46.0213842Z ##[debug]Set step '__actions_upload-pages-artifact' display name to: 'Upload artifact'
+2024-09-16T06:41:46.0214975Z Complete job name: build
+2024-09-16T06:41:46.0234142Z ##[debug]Collect running processes for tracking orphan processes.
+2024-09-16T06:41:46.0439763Z ##[debug]Finishing: Set up job
+2024-09-16T06:41:46.0643556Z ##[debug]Evaluating condition for step: 'Pull ghcr.io/actions/jekyll-build-pages:v1.0.13'
+2024-09-16T06:41:46.0688721Z ##[debug]Evaluating: success()
+2024-09-16T06:41:46.0694470Z ##[debug]Evaluating success:
+2024-09-16T06:41:46.0719489Z ##[debug]=> true
+2024-09-16T06:41:46.0726095Z ##[debug]Result: true
+2024-09-16T06:41:46.0759958Z ##[debug]Starting: Pull ghcr.io/actions/jekyll-build-pages:v1.0.13
+2024-09-16T06:41:46.0822507Z ##[group]Pull down action image 'ghcr.io/actions/jekyll-build-pages:v1.0.13'
+2024-09-16T06:41:46.0868666Z ##[command]/usr/bin/docker pull ghcr.io/actions/jekyll-build-pages:v1.0.13
+2024-09-16T06:41:46.3814032Z v1.0.13: Pulling from actions/jekyll-build-pages
+2024-09-16T06:41:46.3815171Z efc2b5ad9eec: Pulling fs layer
+2024-09-16T06:41:46.3816124Z 165b60d1bb48: Pulling fs layer
+2024-09-16T06:41:46.3816929Z 2a328af1ca3a: Pulling fs layer
+2024-09-16T06:41:46.3817653Z 32b58fa44788: Pulling fs layer
+2024-09-16T06:41:46.3818662Z 590ab93c22d2: Pulling fs layer
+2024-09-16T06:41:46.3819568Z 26ea96c4c14c: Pulling fs layer
+2024-09-16T06:41:46.3820914Z bd7e451dfea1: Pulling fs layer
+2024-09-16T06:41:46.3835028Z c209e9dadc51: Pulling fs layer
+2024-09-16T06:41:46.3836024Z a4925b5c711a: Pulling fs layer
+2024-09-16T06:41:46.3837011Z cd9459784e3c: Pulling fs layer
+2024-09-16T06:41:46.3837789Z 32b58fa44788: Waiting
+2024-09-16T06:41:46.3838588Z 590ab93c22d2: Waiting
+2024-09-16T06:41:46.3839302Z 26ea96c4c14c: Waiting
+2024-09-16T06:41:46.3839981Z bd7e451dfea1: Waiting
+2024-09-16T06:41:46.3840800Z c209e9dadc51: Waiting
+2024-09-16T06:41:46.3841423Z a4925b5c711a: Waiting
+2024-09-16T06:41:46.3842081Z cd9459784e3c: Waiting
+2024-09-16T06:41:46.4459903Z 2a328af1ca3a: Verifying Checksum
+2024-09-16T06:41:46.4460884Z 2a328af1ca3a: Download complete
+2024-09-16T06:41:46.5093903Z 165b60d1bb48: Verifying Checksum
+2024-09-16T06:41:46.5100256Z 165b60d1bb48: Download complete
+2024-09-16T06:41:46.5962395Z efc2b5ad9eec: Verifying Checksum
+2024-09-16T06:41:46.5963936Z efc2b5ad9eec: Download complete
+2024-09-16T06:41:46.6006850Z 590ab93c22d2: Verifying Checksum
+2024-09-16T06:41:46.6008209Z 590ab93c22d2: Download complete
+2024-09-16T06:41:46.6736012Z bd7e451dfea1: Verifying Checksum
+2024-09-16T06:41:46.6736906Z bd7e451dfea1: Download complete
+2024-09-16T06:41:46.7560864Z 32b58fa44788: Verifying Checksum
+2024-09-16T06:41:46.7562145Z 32b58fa44788: Download complete
+2024-09-16T06:41:46.8919470Z a4925b5c711a: Verifying Checksum
+2024-09-16T06:41:46.8920225Z a4925b5c711a: Download complete
+2024-09-16T06:41:47.0442090Z cd9459784e3c: Verifying Checksum
+2024-09-16T06:41:47.0520636Z cd9459784e3c: Download complete
+2024-09-16T06:41:47.1155492Z c209e9dadc51: Verifying Checksum
+2024-09-16T06:41:47.1159401Z c209e9dadc51: Download complete
+2024-09-16T06:41:47.8696678Z 26ea96c4c14c: Verifying Checksum
+2024-09-16T06:41:47.8699808Z 26ea96c4c14c: Download complete
+2024-09-16T06:41:48.7579747Z efc2b5ad9eec: Pull complete
+2024-09-16T06:41:51.1663236Z 165b60d1bb48: Pull complete
+2024-09-16T06:41:51.1808272Z 2a328af1ca3a: Pull complete
+2024-09-16T06:41:52.3541084Z 32b58fa44788: Pull complete
+2024-09-16T06:41:52.3688248Z 590ab93c22d2: Pull complete
+2024-09-16T06:41:56.2121143Z 26ea96c4c14c: Pull complete
+2024-09-16T06:41:58.2653202Z bd7e451dfea1: Pull complete
+2024-09-16T06:42:00.3106981Z c209e9dadc51: Pull complete
+2024-09-16T06:42:00.3669048Z a4925b5c711a: Pull complete
+2024-09-16T06:42:00.6179633Z cd9459784e3c: Pull complete
+2024-09-16T06:42:00.6226144Z Digest: sha256:6791ebfd912185ed59bfb5fb102664fa872496b79f87ff8b9cfba292a7345041
+2024-09-16T06:42:00.6236807Z Status: Downloaded newer image for ghcr.io/actions/jekyll-build-pages:v1.0.13
+2024-09-16T06:42:00.6248952Z ghcr.io/actions/jekyll-build-pages:v1.0.13
+2024-09-16T06:42:00.6272704Z ##[endgroup]
+2024-09-16T06:42:00.6281742Z ##[debug]Finishing: Pull ghcr.io/actions/jekyll-build-pages:v1.0.13
+2024-09-16T06:42:00.6297692Z ##[debug]Evaluating condition for step: 'Checkout'
+2024-09-16T06:42:00.6302110Z ##[debug]Evaluating: success()
+2024-09-16T06:42:00.6302573Z ##[debug]Evaluating success:
+2024-09-16T06:42:00.6303118Z ##[debug]=> true
+2024-09-16T06:42:00.6303588Z ##[debug]Result: true
+2024-09-16T06:42:00.6304595Z ##[debug]Starting: Checkout
+2024-09-16T06:42:00.6418344Z ##[debug]Register post job cleanup for action: actions/checkout@v4
+2024-09-16T06:42:00.6509742Z ##[debug]Loading inputs
+2024-09-16T06:42:00.6540935Z ##[debug]Evaluating: github.repository
+2024-09-16T06:42:00.6541875Z ##[debug]Evaluating Index:
+2024-09-16T06:42:00.6550853Z ##[debug]..Evaluating github:
+2024-09-16T06:42:00.6551934Z ##[debug]..=> Object
+2024-09-16T06:42:00.6564166Z ##[debug]..Evaluating String:
+2024-09-16T06:42:00.6564851Z ##[debug]..=> 'repository'
+2024-09-16T06:42:00.6568690Z ##[debug]=> 'Whiteboy-music/demo-repository'
+2024-09-16T06:42:00.6570196Z ##[debug]Result: 'Whiteboy-music/demo-repository'
+2024-09-16T06:42:00.6571965Z ##[debug]Evaluating: github.token
+2024-09-16T06:42:00.6572291Z ##[debug]Evaluating Index:
+2024-09-16T06:42:00.6572576Z ##[debug]..Evaluating github:
+2024-09-16T06:42:00.6572861Z ##[debug]..=> Object
+2024-09-16T06:42:00.6573171Z ##[debug]..Evaluating String:
+2024-09-16T06:42:00.6573449Z ##[debug]..=> 'token'
+2024-09-16T06:42:00.6574911Z ##[debug]=> '***'
+2024-09-16T06:42:00.6575314Z ##[debug]Result: '***'
+2024-09-16T06:42:00.6584340Z ##[debug]Loading env
+2024-09-16T06:42:00.6665056Z ##[group]Run actions/checkout@v4
+2024-09-16T06:42:00.6665376Z with:
+2024-09-16T06:42:00.6665579Z   ref: main
+2024-09-16T06:42:00.6665791Z   submodules: recursive
+2024-09-16T06:42:00.6666098Z   repository: Whiteboy-music/demo-repository
+2024-09-16T06:42:00.6666606Z   token: ***
+2024-09-16T06:42:00.6666848Z   ssh-strict: true
+2024-09-16T06:42:00.6667331Z   ssh-user: git
+2024-09-16T06:42:00.6667563Z   persist-credentials: true
+2024-09-16T06:42:00.6667838Z   clean: true
+2024-09-16T06:42:00.6668081Z   sparse-checkout-cone-mode: true
+2024-09-16T06:42:00.6668375Z   fetch-depth: 1
+2024-09-16T06:42:00.6668587Z   fetch-tags: false
+2024-09-16T06:42:00.6668820Z   show-progress: true
+2024-09-16T06:42:00.6669053Z   lfs: false
+2024-09-16T06:42:00.6669261Z   set-safe-directory: true
+2024-09-16T06:42:00.6669517Z ##[endgroup]
+2024-09-16T06:42:00.9072193Z ##[debug]GITHUB_WORKSPACE = '/home/runner/work/demo-repository/demo-repository'
+2024-09-16T06:42:00.9074128Z ##[debug]qualified repository = 'Whiteboy-music/demo-repository'
+2024-09-16T06:42:00.9074939Z ##[debug]ref = 'main'
+2024-09-16T06:42:00.9075769Z ##[debug]commit = 'undefined'
+2024-09-16T06:42:00.9077049Z ##[debug]clean = true
+2024-09-16T06:42:00.9077786Z ##[debug]filter = undefined
+2024-09-16T06:42:00.9078548Z ##[debug]fetch depth = 1
+2024-09-16T06:42:00.9079555Z ##[debug]fetch tags = false
+2024-09-16T06:42:00.9080370Z ##[debug]show progress = true
+2024-09-16T06:42:00.9081162Z ##[debug]lfs = false
+2024-09-16T06:42:00.9081930Z ##[debug]submodules = true
+2024-09-16T06:42:00.9082764Z ##[debug]recursive submodules = true
+2024-09-16T06:42:00.9095734Z ##[debug]GitHub Host URL = 
+2024-09-16T06:42:00.9101794Z ::add-matcher::/home/runner/work/_actions/actions/checkout/v4/dist/problem-matcher.json
+2024-09-16T06:42:00.9254872Z ##[debug]Added matchers: 'checkout-git'. Problem matchers scan action output for known warning or error strings and report these inline.
+2024-09-16T06:42:00.9264816Z Syncing repository: Whiteboy-music/demo-repository
+2024-09-16T06:42:00.9265819Z ::group::Getting Git version info
+2024-09-16T06:42:00.9267121Z ##[group]Getting Git version info
+2024-09-16T06:42:00.9268130Z Working directory is '/home/runner/work/demo-repository/demo-repository'
+2024-09-16T06:42:00.9269010Z ##[debug]Getting git version
+2024-09-16T06:42:00.9269307Z [command]/usr/bin/git version
+2024-09-16T06:42:00.9317644Z git version 2.46.0
+2024-09-16T06:42:00.9350252Z ##[debug]0
+2024-09-16T06:42:00.9351084Z ##[debug]git version 2.46.0
+2024-09-16T06:42:00.9351538Z ##[debug]
+2024-09-16T06:42:00.9352891Z ##[debug]Set git useragent to: git/2.46.0 (github-actions-checkout)
+2024-09-16T06:42:00.9354129Z ::endgroup::
+2024-09-16T06:42:00.9354569Z ##[endgroup]
+2024-09-16T06:42:00.9386355Z ::add-mask::***
+2024-09-16T06:42:00.9388443Z Temporarily overriding HOME='/home/runner/work/_temp/601cacdf-45b7-4711-a1e9-cbf02c6e143f' before making global git config changes
+2024-09-16T06:42:00.9390082Z Adding repository directory to the temporary git global config as a safe directory
+2024-09-16T06:42:00.9392352Z [command]/usr/bin/git config --global --add safe.directory /home/runner/work/demo-repository/demo-repository
+2024-09-16T06:42:00.9425897Z ##[debug]0
+2024-09-16T06:42:00.9434498Z ##[debug]
+2024-09-16T06:42:00.9435420Z Deleting the contents of '/home/runner/work/demo-repository/demo-repository'
+2024-09-16T06:42:00.9440814Z ::group::Initializing the repository
+2024-09-16T06:42:00.9441453Z ##[group]Initializing the repository
+2024-09-16T06:42:00.9442475Z [command]/usr/bin/git init /home/runner/work/demo-repository/demo-repository
+2024-09-16T06:42:00.9517207Z hint: Using 'master' as the name for the initial branch. This default branch name
+2024-09-16T06:42:00.9518420Z hint: is subject to change. To configure the initial branch name to use in all
+2024-09-16T06:42:00.9519536Z hint: of your new repositories, which will suppress this warning, call:
+2024-09-16T06:42:00.9520216Z hint:
+2024-09-16T06:42:00.9520594Z hint: 	git config --global init.defaultBranch <name>
+2024-09-16T06:42:00.9521222Z hint:
+2024-09-16T06:42:00.9521985Z hint: Names commonly chosen instead of 'master' are 'main', 'trunk' and
+2024-09-16T06:42:00.9523225Z hint: 'development'. The just-created branch can be renamed via this command:
+2024-09-16T06:42:00.9524110Z hint:
+2024-09-16T06:42:00.9524580Z hint: 	git branch -m <name>
+2024-09-16T06:42:00.9525600Z Initialized empty Git repository in /home/runner/work/demo-repository/demo-repository/.git/
+2024-09-16T06:42:00.9538307Z ##[debug]0
+2024-09-16T06:42:00.9540121Z ##[debug]Initialized empty Git repository in /home/runner/work/demo-repository/demo-repository/.git/
+2024-09-16T06:42:00.9541169Z ##[debug]
+2024-09-16T06:42:00.9542183Z [command]/usr/bin/git remote add origin https://github.com/Whiteboy-music/demo-repository
+2024-09-16T06:42:00.9579781Z ##[debug]0
+2024-09-16T06:42:00.9583513Z ##[debug]
+2024-09-16T06:42:00.9584639Z ::endgroup::
+2024-09-16T06:42:00.9585004Z ##[endgroup]
+2024-09-16T06:42:00.9585756Z ::group::Disabling automatic garbage collection
+2024-09-16T06:42:00.9586407Z ##[group]Disabling automatic garbage collection
+2024-09-16T06:42:00.9590992Z [command]/usr/bin/git config --local gc.auto 0
+2024-09-16T06:42:00.9621228Z ##[debug]0
+2024-09-16T06:42:00.9622366Z ##[debug]
+2024-09-16T06:42:00.9623505Z ::endgroup::
+2024-09-16T06:42:00.9623847Z ##[endgroup]
+2024-09-16T06:42:00.9624789Z ::group::Setting up auth
+2024-09-16T06:42:00.9625257Z ##[group]Setting up auth
+2024-09-16T06:42:00.9633380Z [command]/usr/bin/git config --local --name-only --get-regexp core\.sshCommand
+2024-09-16T06:42:00.9661504Z ##[debug]1
+2024-09-16T06:42:00.9662579Z ##[debug]
+2024-09-16T06:42:00.9669312Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'core\.sshCommand' && git config --local --unset-all 'core.sshCommand' || :"
+2024-09-16T06:42:01.0012812Z ##[debug]0
+2024-09-16T06:42:01.0013872Z ##[debug]
+2024-09-16T06:42:01.0019488Z [command]/usr/bin/git config --local --name-only --get-regexp http\.https\:\/\/github\.com\/\.extraheader
+2024-09-16T06:42:01.0047952Z ##[debug]1
+2024-09-16T06:42:01.0048912Z ##[debug]
+2024-09-16T06:42:01.0055360Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'http\.https\:\/\/github\.com\/\.extraheader' && git config --local --unset-all 'http.https://github.com/.extraheader' || :"
+2024-09-16T06:42:01.0303720Z ##[debug]0
+2024-09-16T06:42:01.0304658Z ##[debug]
+2024-09-16T06:42:01.0313577Z [command]/usr/bin/git config --local http.https://github.com/.extraheader AUTHORIZATION: basic ***
+2024-09-16T06:42:01.0352456Z ##[debug]0
+2024-09-16T06:42:01.0354134Z ##[debug]
+2024-09-16T06:42:01.0363313Z ::endgroup::
+2024-09-16T06:42:01.0363688Z ##[endgroup]
+2024-09-16T06:42:01.0364700Z ::group::Fetching the repository
+2024-09-16T06:42:01.0365224Z ##[group]Fetching the repository
+2024-09-16T06:42:01.0375045Z [command]/usr/bin/git -c protocol.version=2 fetch --no-tags --prune --no-recurse-submodules --depth=1 origin +refs/heads/main*:refs/remotes/origin/main* +refs/tags/main*:refs/tags/main*
+2024-09-16T06:42:01.4062687Z From https://github.com/Whiteboy-music/demo-repository
+2024-09-16T06:42:01.4064056Z  * [new branch]      main       -> origin/main
+2024-09-16T06:42:01.4089174Z ##[debug]0
+2024-09-16T06:42:01.4090213Z ##[debug]
+2024-09-16T06:42:01.4091305Z ::endgroup::
+2024-09-16T06:42:01.4091679Z ##[endgroup]
+2024-09-16T06:42:01.4139846Z ::group::Determining the checkout info
+2024-09-16T06:42:01.4140516Z ##[group]Determining the checkout info
+2024-09-16T06:42:01.4141572Z [command]/usr/bin/git branch --list --remote origin/main
+2024-09-16T06:42:01.4142271Z   origin/main
+2024-09-16T06:42:01.4143549Z ##[debug]0
+2024-09-16T06:42:01.4144203Z ##[debug]  origin/main
+2024-09-16T06:42:01.4144610Z ##[debug]
+2024-09-16T06:42:01.4145264Z ::endgroup::
+2024-09-16T06:42:01.4145622Z ##[endgroup]
+2024-09-16T06:42:01.4151979Z [command]/usr/bin/git sparse-checkout disable
+2024-09-16T06:42:01
