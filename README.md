@@ -1,6 +1,8 @@
 ## Hi there 👋
 
-<!--
+<!--https://www.instagram.com/michaelshadell025?igsh=ZHVyYzdneGZobG5u 
+michaelshadell02@proto.me
+Whiteboy.music 
 **Whiteboymusic/Whiteboymusic** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
 Here are some ideas to get you started:
